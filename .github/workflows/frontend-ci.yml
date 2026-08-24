@@ -79,4 +79,4 @@ jobs:
         run: npm ci
 
       - name: Build Docker image
-        run: docker build -t movie-picture-frontend.
+        run: docker build -t movie-picture-frontend .
